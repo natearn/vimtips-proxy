@@ -4,10 +4,12 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "cors-proxy-server": "^1.0.2",
     "restify": "^6.3.4"
   },
   "devDependencies": {},
   "scripts": {
+    "start": "cors-proxy-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
